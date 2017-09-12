@@ -14,8 +14,8 @@ export const addFriend = (friend) => {
   const promise = axios.post('http://localhost:5000/new-friend', friend)
   return {
     type: ADD_FRIEND,
-    payload: {
-      friend
+    payload: {friend}
   }
 }
+
 

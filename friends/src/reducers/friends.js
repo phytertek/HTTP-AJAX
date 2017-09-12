@@ -11,9 +11,7 @@ export default (state = [], {type, payload}) => {
       return payload.data
 
     case ADD_FRIEND:
-      console.log('Payload', payload)
       newFriends = Array.from(state)
-      console.log(newFriends)
       newFriends.push(payload.friend)
       return newFriends
 
