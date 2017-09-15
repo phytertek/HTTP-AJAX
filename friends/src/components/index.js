@@ -1,8 +1,10 @@
-import FriendsList from './FriendsList'
-import NewFriend from './NewFriend'
+import FriendsList from './presentation/FriendsList'
+import FriendForm from './presentation/FriendForm'
+import FriendsContainer from './containers/FriendsContainer'
 
 export {
   FriendsList,
-  NewFriend
+  FriendForm,
+  FriendsContainer
 }
 
